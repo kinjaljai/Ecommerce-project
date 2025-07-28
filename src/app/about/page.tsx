@@ -3,30 +3,27 @@ import React from 'react';
 
 export default function StoryOfPuritySection() {
   return (
-    <section className="w-full bg-white py-16 px-4 mt-20">
+    <section className="w-full bg-white py-12 px-4 sm:px-6 lg:px-8 mt-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           
           {/* Left Column - Title and Subtitle */}
-          <div className="space-y-1">
-            <h2 className="text-4xl md:text-2xl font-bold text-green-300 leading-tight">
+          <div className="space-y-2">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-300 leading-tight text-center lg:text-left">
               Our Story Of Purity
             </h2>
-            <p className="text-xl md:text-2xl font-semibold text-black leading-relaxed">
-                Crafted For The Health-Conscious,
-                </p>
-                 
-            <p className="text-xl md:text-2xl font-semibold text-black leading-relaxed">
-                Delivered With Care.
-              </p>
-              
-         
+            <p className="text-lg sm:text-xl md:text-2xl font-semibold text-black leading-relaxed text-center lg:text-left">
+              Crafted For The Health-Conscious,
+            </p>
+            <p className="text-lg sm:text-xl md:text-2xl font-semibold text-black leading-relaxed text-center lg:text-left">
+              Delivered With Care.
+            </p>
 
             {/* More About Us Link */}
-            <div className="pt-4">
+            <div className="pt-4 text-center lg:text-left">
               <a 
                 href="#about" 
-                className="inline-flex items-center text-teal-500 hover:text-teal-600 font-medium text-lg transition-colors duration-300"
+                className="inline-flex items-center text-teal-500 hover:text-teal-600 font-medium text-base sm:text-lg transition-colors duration-300"
               >
                 More About Us
                 <svg 
@@ -47,23 +44,23 @@ export default function StoryOfPuritySection() {
           </div>
 
           {/* Right Column - Description Text */}
-          <div className="space-y-6 text-gray-600 leading-relaxed">
-            <p className="text-base md:text-sm">
-              At Genesis, We're More Than Just A Water Delivery Company — We're On A Mission To Bring 
-              Better Hydration And Better Health To Every Home. With Our Scientifically Backed Alkaline Water 
-              (PH 9.5+), We Help Neutralize Acidity, Support Metabolism, And Keep You Energized Naturally.
+          <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg text-justify">
+            <p>
+              At Genesis, we're more than just a water delivery company — we're on a mission to bring 
+              better hydration and better health to every home. With our scientifically backed alkaline water 
+              (pH 9.5+), we help neutralize acidity, support metabolism, and keep you energized naturally.
             </p>
             
-            <p className="text-base md:text-sm">
-              Founded With A Passion For Wellness And Purity, Our Team Ensures Every Drop You Drink Is 
-              Triple-Filtered, Mineral-Balanced, And Delivered Fresh To Your Doorstep. We Serve Households, 
-              Offices, Gyms, And Cafes — Offering Flexible Delivery Schedules And Eco-Friendly Bottle 
-              Exchange Programs To Reduce Plastic Waste.
+            <p>
+              Founded with a passion for wellness and purity, our team ensures every drop you drink is 
+              triple-filtered, mineral-balanced, and delivered fresh to your doorstep. We serve households, 
+              offices, gyms, and cafes — offering flexible delivery schedules and eco-friendly bottle 
+              exchange programs to reduce plastic waste.
             </p>
             
-            <p className="text-base md:text-sm">
-              We Serve Households, Offices, Gyms, And Cafes — Offering Flexible Delivery Schedules And Eco-
-              Friendly Bottle Exchange Programs To Reduce Plastic Waste.
+            <p>
+              We serve households, offices, gyms, and cafes — offering flexible delivery schedules and eco-
+              friendly bottle exchange programs to reduce plastic waste.
             </p>
           </div>
         </div>
